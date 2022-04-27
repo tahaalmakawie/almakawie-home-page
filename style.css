@@ -1,0 +1,321 @@
+
+    
+    /* back #1e2028; 
+        #564ccf
+    */
+
+    @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bars{
+    color: rgb(223, 202, 202);
+    font-size: 25px;
+    display: none;
+    cursor: pointer;
+}
+html{
+    font-size: 16px;
+}
+body{
+    background:#1e2028;
+    font-family: 'Tajawal', sans-serif;
+}
+main{
+    max-width: 80%;
+    margin:auto;
+}
+main nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+nav .logo{
+    font-size: 3rem;
+    color: #564ccf;
+}
+main nav .nav-items .nav-item{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    list-style: none;
+}
+main nav .nav-items .nav-item:hover{
+    background-color:#564ccf ;
+    color: #fff;
+    transform: scale(1.2);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+}
+main nav .nav-items .nav-item .nav-link{
+    text-decoration: none;
+    color: #c4c4c4;
+}
+.cta {
+    font-family: inherit;
+    padding: 0.70rem 1.90rem;
+    border-radius: 16px;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    font-size:16px ;
+    transition: background-color 0.5s;
+}
+.cta.dark{
+    background-color: #252731;
+}
+.cta.dark:hover{
+    background-color: #30323f;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+}
+.cta.purpl{
+    transition: background-color 0.5s;
+    background-color: #564ccf;
+}.cta.purpl:hover{
+    background-color: #665be6;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+}
+.hero{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1{
+    text-align: center;
+    font-size: 48px;
+    /* width: 45%; */
+    color: whitesmoke;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.hero h1 span{
+    display: block;
+    color: #564ccf;
+
+}
+.hero .cta{
+    margin: 0 10px;
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.features h1{
+    color: #fff;
+    margin: 60px 0 20px 0;
+    font-size: 32px;
+}
+.features p{
+    color: #c4c4c4;
+    margin-bottom: 2rem;
+    font-size: 16px;
+}
+.feature{
+    background-color: #252731;
+    display: flex;
+    border-radius: 3rem;
+    overflow: hidden;
+    margin-bottom: 48px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+.feature .content{
+    padding: 4rem 4rem 0 4rem;
+    flex: 1;
+
+}
+.feature .content i{
+    color: #564ccf;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+.feature .content h2{
+    color: #fff;
+    margin-bottom: 32px;
+}
+.feature .content p{
+    color: #c4c4c4;
+    font-size: 1.2rem;
+    width: 80%;
+    line-height: 32px;
+}
+.feature img{
+    flex: 1;
+    width: 259px;
+}
+/* التفاصيل */
+
+.details{
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.details h2{
+    color: #fff;
+    margin: 60px 0 20px 0;
+    font-size: 32px;
+}
+.details h6{
+    color: #c4c4c4;
+    margin-bottom: 2rem;
+    font-size: 16px;
+}
+.details-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+    margin-top: 60px;
+}
+.details-list .detail{
+    padding: 48px;
+    background: #252731;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 32px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.details-list .detail i{
+    color: #564ccf;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+.details-list .detail h3{
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.details-list .detail p{
+    color: #c4c4c4;
+}
+.taha{
+    height: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.9);
+    color: #252731;
+}
+.footer1{
+    width: 100%;
+    height: 50px;
+    margin-top: 90px;
+    position: relative;
+    background: #252731;
+}
+.footer1 h3{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    color: #fff;
+}
+.footer2{
+    background: #252731;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer2 ul li{
+    display: inline-block;
+
+}
+.footer2 h4{
+    margin-top: 20px;
+    color: #fff;
+
+}
+.footer2 ul li i{
+    color: #c4c4c4;
+    margin: 20px 10px;
+    cursor: pointer;
+    padding: 7px;
+    transition: 0.5s;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.footer2 ul li i:hover{
+    color: #564ccf;
+    background-color: #c4c4c4;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+    transform: scale(1.2);
+    
+}
+
+@media screen and (max-width: 1450px){
+    main {max-width: 1024px}
+}
+@media screen and (max-width: 1070px){
+    main {max-width: 760px}
+    .feature img {
+        display: none;
+    }
+    .details-list{
+        grid-template-columns: 1fr 1fr;
+    }
+    .hero h1 span{
+        display: inline;
+    
+    }
+}
+
+@media screen and (max-width:800px){
+    main {max-width: 600px}
+    .feature img {
+        display: none;
+    }
+    .details-list{
+        grid-template-columns: 1fr;
+    }
+    .hero h1 span{
+        display: inline;
+    }
+    html{
+        font-size: 90%;
+    }
+}
+@media screen and (max-width:600px){
+    main {
+        margin: 2rem;
+        text-align: center;
+    }
+    .feature .content p{
+        width: 100%;
+    }
+    .bars{
+        display: block;
+    }
+    main nav .nav-items .nav-item{
+        display: block;
+        padding:1rem 2rem ;
+    }
+    nav .nav-items {
+        /* display: flex; */
+        flex-direction: column;
+        position: absolute;
+        background-color: #4a41b4;
+        width: 100%;
+        height: 30%;
+        left: 1000px;
+        top: 14vh;
+        justify-content: center;
+        align-items: center;
+        transition: 0.7s;
+        /* display: none; */
+    }
+    main nav .nav-items .nav-item:hover{
+        background-color: #30323f;
+    }
+    nav .nav-items.activ{
+        display: flex;
+        left: 0px;
+    }
+} 
